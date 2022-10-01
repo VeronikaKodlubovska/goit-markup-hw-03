@@ -1,0 +1,234 @@
+/* Основний колір тексту №212121
+Другорядний колір тексту #757575
+Колір лого #2196F3 #000000
+Колір акценту #2196F3 
+Фон секції "Команда" #F5F4FA
+Фон футера #2F303A 
+Основний колір фону та заголовку героя #ffffff 
+Фон кнопок фільтра #F5F4FA*
+Колір контактів у футері rgba(255, 255, 255, 0.6); */
+
+
+
+:root {
+    --main-text-color: #212121;
+    --other-text-color: #757575;
+    --accent-color: #2196F3;
+    --background-footer: #2F303A;
+    --background-color-persons-section: #F5F4FA;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --background-filter: #F5F4FA;
+    --contacts-text-color-in-footer: rgba(255, 255, 255, 0.6);
+}
+
+/* Studio Page */
+
+/* Navigation of Header */
+
+body {
+    background-color: var(--white-color);
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+.logo {
+    color: var(--black-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.accent,
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+/* Site-nav list */
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Contacts */
+
+.contacts .link {
+    color: var(--other-text-color);
+}
+
+.site-nav.list,
+.contacts.list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts.list {
+    color: var(--other-text-color);
+}
+
+/* Studio page */
+/* Hero */
+
+.hero {
+    background-color: var(--background-footer);
+    letter-spacing: 0.06em;
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Button */
+
+.main-button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+/* Features */
+
+.features-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--other-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em
+}
+
+.persons-section {
+    background-color: var(--background-color-persons-section);
+}
+
+.persons-item {
+    background-color: var(--white-color);
+}
+
+.work-title,
+.persons-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.persons-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.persons-text {
+    color: var(--other-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--background-footer);
+}
+
+.bottom.logo {
+    color: var(--white-color);
+}
+
+.address-list {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.address {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+
+.address-list .link {
+    color: var(--contacts-text-color-in-footer);
+}
+
+
+/* Portfolio Page */
+
+/* Filter Buttons */
+
+.filter button:hover,
+.filter button:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+.button {
+    background-color: var(--background-filter);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+/* Porfolio List */
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--other-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.link:visited {
+    color: inherit;
+}
+
+.main-page.link,
+.link:hover,
+.link:focus,
+.link:active {
+    color: var(--accent-color);
+}
