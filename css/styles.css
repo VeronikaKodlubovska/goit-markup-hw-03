@@ -420,7 +420,3 @@ img {
 .card-content {
     padding: 20px 24px;
 }
-
-.card-content:nth-child(3n) {
-    margin right: ;
-}
