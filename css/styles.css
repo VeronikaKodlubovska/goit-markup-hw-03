@@ -400,6 +400,7 @@ img {
 }
 
 .portfolio-title {
+    margin-top: 0;
     margin-bottom: 4px;
 
     font-size: 18px;
@@ -408,6 +409,7 @@ img {
 }
 
 .portfolio-text {
+    margin: 0;
     color: var(--other-text-color);
     font-size: 16px;
     line-height: 1.88;
@@ -415,8 +417,5 @@ img {
 }
 
 .card-content {
-    padding-right: 24px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-
+    padding: 20px 24px;
 }
