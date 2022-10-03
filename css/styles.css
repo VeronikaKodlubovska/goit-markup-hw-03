@@ -186,7 +186,8 @@ body {
     padding-bottom: 94px;
 }
 
-.visually-hidden {
+.features.visually-hidden,
+.portfolio.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
