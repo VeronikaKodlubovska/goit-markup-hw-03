@@ -90,6 +90,12 @@ body {
     text-decoration: none;
 }
 
+.link:visited {
+    color: inherit;
+}
+
+
+
 .site-nav .link {
     display: block;
     padding-top: 32px;
@@ -120,7 +126,7 @@ body {
 .contacts.list {
     display: flex;
     margin-left: auto;
-    color: var(--other-text-color);
+
 }
 
 
@@ -308,7 +314,7 @@ body {
     font-style: normal;
 }
 
-.address {
+.address-list .address {
     display: inline-block;
     margin-bottom: 9px;
 
@@ -316,13 +322,20 @@ body {
     text-decoration: none;
 }
 
+.address-list .link {
+    color: var(--contacts-text-color-in-footer);
+}
+
 .address:hover,
 .address:focus {
     color: var(--accent-color);
 }
 
-.address-list .link {
-    color: var(--contacts-text-color-in-footer);
+.main-page.link,
+.link:hover,
+.link:focus,
+.link:active {
+    color: var(--accent-color);
 }
 
 
@@ -393,16 +406,4 @@ img {
 
     .card-content {
         display: inline-block;
-    }
-
-
-    .link:visited {
-        color: inherit;
-    }
-
-    .main-page.link,
-    .link:hover,
-    .link:focus,
-    .link:active {
-        color: var(--accent-color);
     }
