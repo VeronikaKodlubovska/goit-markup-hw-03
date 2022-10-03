@@ -341,6 +341,8 @@ body {
 /* Filter Buttons */
 
 .filter.list {
+    outline: 1px solid tomato;
+
     display: flex;
     justify-content: center;
     padding-top: 94px;
@@ -378,14 +380,17 @@ img {
 }
 
 .portfolio.list {
+    outline: 1px solid tomato;
+
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
     margin-bottom: 94px;
 }
 
 .portfolio>.item {
-    flex-basis: calc(100%-2*30px / 3);
+    flex-basis: calc(100%-60px)/3;
     border: 2px solid var(--border-bottom-color);
 }
 
@@ -409,4 +414,8 @@ img {
 
 .card-content {
     margin: 20px 24px;
+}
+
+.card-content:nth-child(3n) {
+    margin right: ;
 }
