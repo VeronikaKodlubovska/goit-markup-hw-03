@@ -341,8 +341,6 @@ body {
 /* Filter Buttons */
 
 .filter.list {
-    outline: 1px solid tomato;
-
     display: flex;
     justify-content: center;
     padding-top: 94px;
@@ -380,8 +378,6 @@ img {
 }
 
 .portfolio.list {
-    outline: 1px solid tomato;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
