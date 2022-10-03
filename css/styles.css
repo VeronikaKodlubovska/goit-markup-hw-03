@@ -19,6 +19,7 @@
     --background-filter: #f5f4fa;
     --contacts-text-color-in-footer: rgba(255, 255, 255, 0.6);
     --border-bottom-color: #ececec;
+    --main-button-active: #188CE8;
 }
 
 /* Studio Page */
@@ -169,6 +170,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: var(--main-button-active);
+
 }
 
 /* Features */
