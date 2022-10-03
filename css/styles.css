@@ -172,7 +172,9 @@ body {
     cursor: pointer;
 }
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus,
+.main-button:active {
     background-color: var(--main-button-active);
 
 }
