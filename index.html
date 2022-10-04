@@ -39,7 +39,7 @@
     <!--Основний контент-->
     <main>
         <!--Герой-->
-        <section class="hero">
+        <section class="hero section">
             <div class="container">
                 <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
                 <button type="button" class="main-button">Замовити послугу</button>
@@ -75,9 +75,9 @@
 
         </section>
         <!--Види діяльності-->
-        <section class="work-section">
-            <h2 class="work-title">Чим ми займаємося</h2>
+        <section class="work section">
             <div class="container">
+                <h2 class="work-title">Чим ми займаємося</h2>
                 <ul class="work list">
                     <li class="item"><img src="./images/img1.jpg" alt="Веб-програмування" width="370"></li>
                     <li class="item"><img src="./images/box2.jpg" alt="Адаптивна верстка" width="370"></li>
@@ -86,29 +86,37 @@
             </div>
         </section>
         <!--Члени команди-->
-        <section class="persons-section">
+        <section class="persons section">
             <div class="container">
                 <h2 class="persons-title">Наша команда</h2>
                 <ul class="persons list">
                     <li class="persons-item">
                         <img src="./images/person1.jpg" alt="Член команди 1" width="270">
-                        <h3 class="persons-name">Ігор Дем'яненко</h3>
-                        <p class="persons-text">Product Designer</p>
+                        <div class="persons-card">
+                            <h3 class="persons-name">Ігор Дем'яненко</h3>
+                            <p class="persons-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="persons-item">
                         <img src="./images/person2.jpg" alt="Член команди 2" width="270">
-                        <h3 class="persons-name">Ольга Рєпіна</h3>
-                        <p class="persons-text">Frontend Developer</p>
+                        <div class="persons-card">
+                            <h3 class="persons-name">Ольга Рєпіна</h3>
+                            <p class="persons-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="persons-item">
                         <img src="./images/person3.jpg" alt="Член команди 3" width="270">
-                        <h3 class="persons-name">Микола Тарасов</h3>
-                        <p class="persons-text">Marketing</p>
+                        <div class="persons-card">
+                            <h3 class="persons-name">Микола Тарасов</h3>
+                            <p class="persons-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="persons-item">
                         <img src="./images/person4.jpg" alt="Член команди 4" width="270">
-                        <h3 class="persons-name">Михайло Єрмаков</h3>
-                        <p class="persons-text">UI Designer</p>
+                        <div class="persons-card">
+                            <h3 class="persons-name">Михайло Єрмаков</h3>
+                            <p class="persons-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -116,7 +124,7 @@
         </section>
     </main>
     <!-- Футер сайту -->
-    <footer class="page-footer">
+    <footer class="page-footer section">
         <div class="container">
             <a href="./index.html" class="bottom logo"><span class="accent">Web</span>Studio</a>
             <address>
