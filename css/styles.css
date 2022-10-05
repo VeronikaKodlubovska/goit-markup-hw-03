@@ -32,12 +32,31 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 /* Logo */
+
 .page-header {
     border-bottom: 2px solid var(--border-bottom-color);
 }
@@ -67,13 +86,6 @@ body {
 }
 
 /* Site-nav list */
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 .main-nav {
     display: flex;
@@ -148,7 +160,6 @@ body {
 
 .hero-title {
     margin-bottom: 30px;
-    margin: 0;
 
     color: var(--white-color);
     font-weight: 900;
@@ -165,7 +176,7 @@ body {
     border-radius: 4px;
     border: 1px solid transparent;
     padding: 10px 32px;
-    margin: 0;
+
 
     background-color: var(--accent-color);
     color: var(--white-color);
@@ -216,7 +227,6 @@ body {
 }
 
 .features-title {
-    margin-top: 0;
     margin-bottom: 11px;
 
     font-size: 14px;
@@ -226,7 +236,6 @@ body {
 }
 
 .features-text {
-    margin: 0;
     color: var(--other-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -247,7 +256,6 @@ body {
 
 .work-title,
 .persons-title {
-    margin-top: 0;
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -275,7 +283,6 @@ body {
 }
 
 .persons-name {
-    margin: 0px;
     margin-bottom: 10px;
     text-align: center;
 
@@ -286,7 +293,6 @@ body {
 }
 
 .persons-text {
-    margin: 0;
     text-align: center;
 
     color: var(--other-text-color);
@@ -406,7 +412,6 @@ img {
 }
 
 .portfolio-title {
-    margin-top: 0;
     margin-bottom: 4px;
 
     font-size: 18px;
@@ -415,7 +420,6 @@ img {
 }
 
 .portfolio-text {
-    margin: 0;
     color: var(--other-text-color);
     font-size: 16px;
     line-height: 1.88;
